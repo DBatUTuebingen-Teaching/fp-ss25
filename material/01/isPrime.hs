@@ -3,7 +3,7 @@ isPrime :: Integer -> Bool
 isPrime n = factors n == []
   where
     factors :: Integer -> [Integer]
-    factors n = [ m | m <- [2..n-1], mod n m == 0 ]
+    factors n = [ m | m <- [2..n-1], n `mod` m == 0 ]
 
 
 main :: IO ()

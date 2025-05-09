@@ -23,7 +23,7 @@ int main()
 {
   int n;
 
-  n = 37;
+  n = 55555;
 
   printf("%d\n", isPrime(n));
   return 0;

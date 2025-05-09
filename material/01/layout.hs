@@ -1,5 +1,6 @@
 {-
 
+
  (1) Layout:
 
  power :: Double -> Integer -> Double
@@ -26,6 +27,7 @@
 
 ;main :: IO ()
 ;main = print $ power 2 16}
+
 
 -}
 
