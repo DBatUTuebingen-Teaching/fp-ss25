@@ -41,7 +41,7 @@ instance Comparable Weekday where
       index Sun = 7
 
   a /= b = not $ a <= b && b <= a
-  a >= b = not $ a < b
+  a >= b = not $ a <= b
 
 table :: (Comparable a, Printable a) => [a] -> String
 table a = decoration ++ "\n" ++ concatMap ((++ "\n") . toString) a' ++ decoration
